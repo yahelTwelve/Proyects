@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.quoteBox {
+    width: 450px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.quoteBox__author {
+    position: absolute;
+    top: 95%;
+    text-shadow: 3px 3px 0 gray;
+    color: white;
+}
+
+.quoteBox__phrase-container {
+    background: linear-gradient(180deg, white, rgba(255, 255, 255, 0.146));
+    padding: 1rem;
+    border-radius: 1.3rem;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 1.2rem;
+}
+
+.quoteBox__title {
+    color: white;
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 3.2rem;
+}
+
+.quoteBox__button {
+    background: none;
+    border: none;
+    padding: 0%;
+    border-radius: 1rem;
+}
+
+.planet {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.shadow {
+    fill: linear-gradient(278deg, #19002A 3.77%, rgba(91, 0, 139, 0.00) 94.95%);
+    opacity: 0.3;
+}
+
+.bg1 {
+    background-image: url(/img/bg1.jpg);
+}
+
+.bg2 {
+    background-image: url(/img/bg2.jpg);
+}
+
+.bg3 {
+    background-image: url(/img/bg3.jpg);
+}
+
+.bg4 {
+    background-image: url(/img/bg4.jpg);
+}
